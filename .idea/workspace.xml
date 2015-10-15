@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c4265da7-5025-4d2e-be2d-bcead06a5577" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/KBStripe.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/data/test.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/.coveralls.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/.travis.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Account.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/AccountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/AlipayAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/Api.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/ApiConnection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/ApiRequestor.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ApiRequestorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/ApiResource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/ApplicationFee.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/ApplicationFeeRefund.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ApplicationFeeRefundTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ApplicationFeeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/AttachedObject.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/Authentication.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/AuthenticationErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Balance.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/BalanceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/BalanceTransaction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/BalanceTransactionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/BankAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/Base.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/BitcoinReceiver.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/BitcoinReceiverTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/BitcoinTransaction.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/CHANGELOG.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Card.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/Card.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/CardErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Charge.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ChargeTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/HttpClient/ClientInterface.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Collection.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Coupon.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/CouponTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/HttpClient/CurlClient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/CurlClientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Customer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/CustomerTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/DiscountTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Event.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/ExternalAccount.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/FileUpload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/FileUploadTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/InvalidRequest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/InvalidRequestErrorTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Invoice.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/InvoiceItem.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/InvoiceTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Object.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/ObjectTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Plan.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/PlanTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Error/RateLimit.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Recipient.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/RecipientTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Refund.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/RefundTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Util/RequestOptions.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/RequestOptionsTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Util/Set.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/SingletonApiResource.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Stripe.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Subscription.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/SubscriptionTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/TestCase.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Token.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/TokenTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Transfer.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/TransferReversal.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/TransferReversalTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/TransferTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/lib/Util/Util.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/UtilTest.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/VERSION" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/bootstrap.no_autoload.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/tests/bootstrap.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/build.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/data/ca-certificates.crt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/composer.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/init.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/phpunit.no_autoload.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/stripe/phpunit.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+    </list>
+    <ignored path="KBStripe.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="KBStripe" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="stripe_test.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/stripe_test.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="205" column="11" selection-start="4062" selection-end="4062" vertical-scroll-proportion="0.4281525" vertical-offset="2783" max-vertical-offset="3465">
+              <folding>
+                <element signature="e#6#85#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Set.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stripe/lib/Util/Set.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="735">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/stripe/lib/Account.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.083333" vertical-offset="338" max-vertical-offset="1020">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/stripe_test.php" />
+      </list>
+    </option>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="382" />
+    <option name="y" value="30" />
+    <option name="width" value="1440" />
+    <option name="height" value="824" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KBStripe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KBStripe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="KBStripe" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$USER_HOME$/Documents/termwiki/newtermwiki1" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <list size="0" />
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c4265da7-5025-4d2e-be2d-bcead06a5577" name="Default" comment="" />
+      <created>1444888602484</created>
+      <updated>1444888602484</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="382" y="30" width="1440" height="824" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24964234" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/stripe/lib/Util/Set.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stripe/lib/Account.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="14.083333" vertical-offset="338" max-vertical-offset="1020">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/stripe_test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="205" column="11" selection-start="4062" selection-end="4062" vertical-scroll-proportion="0.4281525" vertical-offset="2783" max-vertical-offset="3465">
+          <folding>
+            <element signature="e#6#85#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+
